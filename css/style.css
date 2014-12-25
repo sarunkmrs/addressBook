@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 24, 2014, 3:07:03 PM
+    Author     : Sar
+*/
+
+body{
+  background: #FFF url('../img/intro_bkg.jpg') no-repeat 50% 0px;
+  font-family: 'Open Sans', sans-serif, 'Arial', sans-serif;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.intro {
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.social-icons {
+  display: inline-block;
+}
+.social-icons li {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  line-height: 70px;
+}
+.he-social {
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  margin: 0 40px;
+  border-radius: 50%;
+  display: block;
+  text-decoration: none;
+}
+.he-social.ico-facebook {
+   background-color: #3b5998;
+   color: #FFF;
+}
