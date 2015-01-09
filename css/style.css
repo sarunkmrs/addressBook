@@ -11,7 +11,6 @@ and open the template in the editor.
 body{
   background: #FFF url('../img/intro_bkg.jpg') no-repeat 50% 0px;
   font-family: 'Open Sans', sans-serif, 'Arial', sans-serif;
-  width: 100%;
 }
 ul {
   margin: 0;
@@ -27,23 +26,50 @@ ul {
   display: inline-block;
 }
 .social-icons li {
-  display: inline-block;
   float: left;
+  width: auto !important;
+  display: inline-block !important;
   vertical-align: top;
+  clear: none !important;
   line-height: 70px;
 }
 .he-social {
-  width: 36px;
-  height: 36px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 36px;
-  margin: 0 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   display: block;
+  font-size: 18px;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 4px;
+  text-align: center;
   text-decoration: none;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  width: 36px;  
 }
 .he-social.ico-facebook {
-   background-color: #3b5998;
-   color: #FFF;
+  background-color: #3b5998;
+  color: #f8f8f8;
+}
+.he-social.ico-twitter {
+  background-color: #00a9ed;
+  color: #f8f8f8;
+}
+.he-social.ico-google {
+  background-color: #cd1111;
+  color: #f8f8f8;
+}
+#non-header {
+  margin-bottom: 80px;
+}
+#non-header img {
+  padding: 0 15px;
+}
+img {
+  border: 0;
+  vertical-align: middle;
 }
